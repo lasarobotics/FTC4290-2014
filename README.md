@@ -1,4 +1,11 @@
 ------------
+BUILD DETAILS
+------------
+Codename: Centaur Dev (1.3.1)
+Build: 0
+Season: 2013-2014
+
+------------
 DANGER!
 ------------
 
