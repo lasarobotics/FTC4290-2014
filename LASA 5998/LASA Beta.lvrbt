@@ -10,6 +10,7 @@
 	</Item>
 	<Item Name="Robo_Others" Type="Folder">
 		<Item Name="lasa.ric" Type="Document" URL="../Robo_Others/lasa.ric"/>
+		<Item Name="version.txt" Type="Document" URL="../Robo_Others/version.txt"/>
 	</Item>
 	<Item Name="Robo_Programs" Type="Folder">
 		<Item Name="deadband.vi" Type="VI" URL="../Robo_Programs/deadband.vi"/>
@@ -22,6 +23,7 @@
 		<Item Name="op_init.vi" Type="VI" URL="../Robo_Programs/op_init.vi"/>
 		<Item Name="op_read.vi" Type="VI" URL="../Robo_Programs/op_read.vi"/>
 		<Item Name="op_run.vi" Type="VI" URL="../Robo_Programs/op_run.vi"/>
+		<Item Name="splash.vi" Type="VI" URL="../Robo_Programs/splash.vi"/>
 		<Item Name="teleop.vi" Type="VI" URL="../Robo_Programs/teleop.vi"/>
 	</Item>
 	<Item Name="Robo_Schema" Type="Folder">
