@@ -1,11 +1,4 @@
-------------
-BUILD DETAILS
-------------
-Codename: Centaur Dev (1.3.1)
-Build: 0
-Season: 2013-2014
-LabVIEW Version: 2010    [!!! DO NOT USE ANY OTHER VERSION OF LABVIEW TO OPEN OR MODIFY THESE FILES !!!]
-C Version: Unused
+Welcome to the FTC Developer Branch!
 
 ------------
 ABOUT BRANCHES
