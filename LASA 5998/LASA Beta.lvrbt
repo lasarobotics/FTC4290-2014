@@ -16,6 +16,7 @@
 		<Item Name="deadband.vi" Type="VI" URL="../Robo_Programs/deadband.vi"/>
 		<Item Name="encoderfilter.vi" Type="VI" URL="../Robo_Programs/encoderfilter.vi"/>
 		<Item Name="expodrive.vi" Type="VI" URL="../Robo_Programs/expodrive.vi"/>
+		<Item Name="getversion.vi" Type="VI" URL="../Robo_Programs/getversion.vi"/>
 		<Item Name="ir.vi" Type="VI" URL="../Robo_Programs/ir.vi"/>
 		<Item Name="normalize128_motor.vi" Type="VI" URL="../Robo_Programs/normalize128_motor.vi"/>
 		<Item Name="normalize128_servo.vi" Type="VI" URL="../../LASA 4290/Robo_Programs/normalize128_servo.vi"/>
@@ -23,7 +24,6 @@
 		<Item Name="op_init.vi" Type="VI" URL="../Robo_Programs/op_init.vi"/>
 		<Item Name="op_read.vi" Type="VI" URL="../Robo_Programs/op_read.vi"/>
 		<Item Name="op_run.vi" Type="VI" URL="../Robo_Programs/op_run.vi"/>
-		<Item Name="splash.vi" Type="VI" URL="../Robo_Programs/splash.vi"/>
 		<Item Name="teleop.vi" Type="VI" URL="../Robo_Programs/teleop.vi"/>
 	</Item>
 	<Item Name="Robo_Schema" Type="Folder">
