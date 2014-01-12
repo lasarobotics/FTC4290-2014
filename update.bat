@@ -15,7 +15,9 @@ echo %code% >> version.txt
 for /f "delims=" %%i in ('git rev-list --tags --max-count=1') do set version=%%i
 for /f "delims=" %%i in ('git describe --tags "%version%" ') do set versionnumber=%%i
 for /f "delims=" %%i in ('git rev-parse --abbrev-ref HEAD') do set branch=%%i
+set /a numcommits=0
+for /f "delims=" %%x in ('git rev-list HEAD') do  set /a numcommits=numcommits+1
 set versionnumber=%versionnumber:~0,4%
-set final=Version:%versionnumber%x Branch:%branch%
+set final=Version:%versionnumber%x, Branch:%branch%, Total Commits:%numcommits%
 echo %final% >> version.txt
 
