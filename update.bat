@@ -10,6 +10,12 @@
 @if not defined TERM set TERM=msys
 
 del version.txt
-for /f "delims=" %%x in (codename.txt) do set Code=%%x
+for /f "delims=" %%x in (codename.txt) do set code=%%x
 echo %code% >> version.txt
-git rev-list HEAD | wc -l >> version.txt
+for /f "delims=" %%i in ('git rev-list --tags --max-count=1') do set version=%%i
+for /f "delims=" %%i in ('git describe --tags "%version%" ') do set versionnumber=%%i
+for /f "delims=" %%i in ('git rev-parse --abbrev-ref HEAD') do set branch=%%i
+set versionnumber=%versionnumber:~0,4%
+set final=Version:%versionnumber%x Branch:%branch%
+echo %final% >> version.txt
+
