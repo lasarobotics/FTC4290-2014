@@ -5,7 +5,6 @@
 	<Property Name="NI.Lib.LocalName" Type="Str">LASA 5998</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Robo_Joystick" Type="Folder">
-		<Item Name="nbvfj.rcc" Type="Document" URL="../Robo_Joystick/nbvfj.rcc"/>
 		<Item Name="remote.rcc" Type="Document" URL="../Robo_Joystick/remote.rcc"/>
 	</Item>
 	<Item Name="Robo_Others" Type="Folder">
@@ -14,6 +13,7 @@
 	</Item>
 	<Item Name="Robo_Programs" Type="Folder">
 		<Item Name="deadband.vi" Type="VI" URL="../Robo_Programs/deadband.vi"/>
+		<Item Name="debug.vi" Type="VI" URL="../Robo_Programs/debug.vi"/>
 		<Item Name="encoderfilter.vi" Type="VI" URL="../Robo_Programs/encoderfilter.vi"/>
 		<Item Name="expodrive.vi" Type="VI" URL="../Robo_Programs/expodrive.vi"/>
 		<Item Name="getversion.vi" Type="VI" URL="../Robo_Programs/getversion.vi"/>
