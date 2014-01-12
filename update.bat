@@ -4,20 +4,14 @@
 @rem Get the absolute path to the current directory, which is assumed to be the
 @rem Git installation root.
 @for /F "delims=" %%I in ("%~dp0") do @set git_install_root=%%~fI
-@set PATH=%git_install_root%\PortableGit\bin;%git_install_root%\PortableGit\\mingw\bin;%git_install_root%\PortableGit\cmd;%PATH%
+@set PATH=%git_install_root%\PortableGit\bin;%git_install_root%\PortableGit\mingw\bin;%git_install_root%\PortableGit\cmd;%PATH%
 
 @set PLINK_PROTOCOL=ssh
 @if not defined TERM set TERM=msys
 
 del version.txt
 for /f "delims=" %%x in (codename.txt) do set code=%%x
-echo %code% >> version.txt
-for /f "delims=" %%i in ('git rev-list --tags --max-count=1') do set version=%%i
-for /f "delims=" %%i in ('git describe --tags "%version%" ') do set versionnumber=%%i
 for /f "delims=" %%i in ('git rev-parse --abbrev-ref HEAD') do set branch=%%i
-set /a numcommits=0
-for /f "delims=" %%x in ('git rev-list HEAD') do  set /a numcommits=numcommits+1
-set versionnumber=%versionnumber:~0,4%
-set final=Version:%versionnumber%x, Branch:%branch%, Total Commits:%numcommits%
-echo %final% >> version.txt
-
+echo %code% >> version.txt
+echo %branch% >> version.txt
+git rev-list HEAD | wc -l >> version.txt
