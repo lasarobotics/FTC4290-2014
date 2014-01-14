@@ -9,7 +9,6 @@
 	</Item>
 	<Item Name="Robo_Others" Type="Folder">
 		<Item Name="lasa.ric" Type="Document" URL="../Robo_Others/lasa.ric"/>
-		<Item Name="version.txt" Type="Document" URL="../Robo_Others/version.txt"/>
 	</Item>
 	<Item Name="Robo_Programs" Type="Folder">
 		<Item Name="auto.vi" Type="VI" URL="../Robo_Programs/auto.vi"/>
