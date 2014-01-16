@@ -21,6 +21,7 @@
 		<Item Name="ir.vi" Type="VI" URL="../Robo_Programs/ir.vi"/>
 		<Item Name="normalize128_motor.vi" Type="VI" URL="../Robo_Programs/normalize128_motor.vi"/>
 		<Item Name="normalize128_servo.vi" Type="VI" URL="../../LASA 4290/Robo_Programs/normalize128_servo.vi"/>
+		<Item Name="nxtxbool.vi" Type="VI" URL="../Robo_Programs/nxtxbool.vi"/>
 		<Item Name="op.vi" Type="VI" URL="../Robo_Programs/op.vi"/>
 		<Item Name="op_init.vi" Type="VI" URL="../Robo_Programs/op_init.vi"/>
 		<Item Name="op_read.vi" Type="VI" URL="../Robo_Programs/op_read.vi"/>
