@@ -5,19 +5,23 @@
 	<Property Name="NI.Lib.LocalName" Type="Str">LASA 5998</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Robo_Joystick" Type="Folder">
-		<Item Name="nbvfj.rcc" Type="Document" URL="../Robo_Joystick/nbvfj.rcc"/>
 		<Item Name="remote.rcc" Type="Document" URL="../Robo_Joystick/remote.rcc"/>
 	</Item>
 	<Item Name="Robo_Others" Type="Folder">
 		<Item Name="lasa.ric" Type="Document" URL="../Robo_Others/lasa.ric"/>
 	</Item>
 	<Item Name="Robo_Programs" Type="Folder">
+		<Item Name="auto.vi" Type="VI" URL="../Robo_Programs/auto.vi"/>
+		<Item Name="auto_placeblock.vi" Type="VI" URL="../Robo_Programs/auto_placeblock.vi"/>
 		<Item Name="deadband.vi" Type="VI" URL="../Robo_Programs/deadband.vi"/>
+		<Item Name="debug.vi" Type="VI" URL="../Robo_Programs/debug.vi"/>
 		<Item Name="encoderfilter.vi" Type="VI" URL="../Robo_Programs/encoderfilter.vi"/>
 		<Item Name="expodrive.vi" Type="VI" URL="../Robo_Programs/expodrive.vi"/>
+		<Item Name="getversion.vi" Type="VI" URL="../Robo_Programs/getversion.vi"/>
 		<Item Name="ir.vi" Type="VI" URL="../Robo_Programs/ir.vi"/>
 		<Item Name="normalize128_motor.vi" Type="VI" URL="../Robo_Programs/normalize128_motor.vi"/>
 		<Item Name="normalize128_servo.vi" Type="VI" URL="../../LASA 4290/Robo_Programs/normalize128_servo.vi"/>
+		<Item Name="nxtxbool.vi" Type="VI" URL="../Robo_Programs/nxtxbool.vi"/>
 		<Item Name="op.vi" Type="VI" URL="../Robo_Programs/op.vi"/>
 		<Item Name="op_init.vi" Type="VI" URL="../Robo_Programs/op_init.vi"/>
 		<Item Name="op_read.vi" Type="VI" URL="../Robo_Programs/op_read.vi"/>
