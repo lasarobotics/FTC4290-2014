@@ -17,6 +17,7 @@
 		<Item Name="auto_placeblock.vi" Type="VI" URL="../Robo_Programs/auto_placeblock.vi"/>
 		<Item Name="auto_rampnav.vi" Type="VI" URL="../Robo_Programs/auto_rampnav.vi"/>
 		<Item Name="deadband.vi" Type="VI" URL="../Robo_Programs/deadband.vi"/>
+		<Item Name="debug.vi" Type="VI" URL="../Robo_Programs/debug.vi"/>
 		<Item Name="encoderfilter.vi" Type="VI" URL="../Robo_Programs/encoderfilter.vi"/>
 		<Item Name="getversion.vi" Type="VI" URL="../Robo_Programs/getversion.vi"/>
 		<Item Name="ir.vi" Type="VI" URL="../Robo_Programs/ir.vi"/>
