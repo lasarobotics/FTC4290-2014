@@ -1,6 +1,12 @@
 Welcome to the FTC Developer Branch!
 
 ------------
+VERSION DETAILS
+------------
+This codebase uses LabVIEW 2010!
+[Do NOT attempt to use any other version of LabVIEW!]
+
+------------
 ABOUT BRANCHES
 ------------
 Created branching system similar to Google's Android.
