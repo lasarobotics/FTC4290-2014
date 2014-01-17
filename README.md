@@ -1,4 +1,4 @@
-Welcome to the FTC Developer Branch!
+Welcome to the FTC Stable Branch!
 
 ------------
 ABOUT BRANCHES
