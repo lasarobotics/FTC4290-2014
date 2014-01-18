@@ -1,0 +1,3 @@
+[submodule "PortableGit"]
+	path = PortableGit
+	url = https://github.com/msysgit/msysgit

@@ -1,0 +1,10 @@
+#!/bin/sh
+echo
+if [ -a .commit ]
+    then
+    rm .commit
+	$COMSPEC \/c update.bat\"
+    git add version.txt
+    git commit --amend -C HEAD --no-verify
+fi
+exit
