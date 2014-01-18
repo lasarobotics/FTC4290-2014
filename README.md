@@ -1,5 +1,3 @@
-Welcome to the FTC Dev Branch!
-
 ------------
 VERSION DETAILS
 ------------
