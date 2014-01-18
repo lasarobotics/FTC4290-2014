@@ -1,3 +1,4 @@
+cd PortableGit
 @rem Do not use "echo off" to not affect any child calls.
 @setlocal
 
@@ -9,6 +10,8 @@
 @set PLINK_PROTOCOL=ssh
 @if not defined TERM set TERM=msys
 
+echo %git_install_root%
+cd ..
 del version.txt
 for /f "delims=" %%x in (codename.txt) do set code=%%x
 for /f "delims=" %%i in ('git rev-parse --abbrev-ref HEAD') do set branch=%%i
