@@ -14,8 +14,8 @@
 	<Item Name="Robo_Programs" Type="Folder">
 		<Item Name="auto.vi" Type="VI" URL="../Robo_Programs/auto.vi"/>
 		<Item Name="auto_irsuccess.vi" Type="VI" URL="../Robo_Programs/auto_irsuccess.vi"/>
-		<Item Name="auto_placeblock.vi" Type="VI" URL="../Robo_Programs/auto_placeblock.vi"/>
 		<Item Name="auto_rampnav.vi" Type="VI" URL="../Robo_Programs/auto_rampnav.vi"/>
+		<Item Name="autoplace2.vi" Type="VI" URL="../Robo_Programs/autoplace2.vi"/>
 		<Item Name="deadband.vi" Type="VI" URL="../Robo_Programs/deadband.vi"/>
 		<Item Name="debug.vi" Type="VI" URL="../Robo_Programs/debug.vi"/>
 		<Item Name="encoderfilter.vi" Type="VI" URL="../Robo_Programs/encoderfilter.vi"/>
