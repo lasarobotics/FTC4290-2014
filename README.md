@@ -1,15 +1,5 @@
-------------
-VERSION DETAILS
-------------
-This codebase uses LabVIEW 2010!
-[Do NOT attempt to use any other version of LabVIEW!]
-
-------------
-ABOUT BRANCHES
-------------
-Created branching system similar to Google's Android.
-A -Dev branch and -Stable branch exist.
-The first names (not in repository) were Alpha and Beta and the next name will be Daemon.
-The theme for naming is MYTHICAL CREATURES (as no one has taken that yet).
-Only massive changes including at least one successful stable cycle (or year changes) may post into a branch name change.
-Once all systems are stable, simply commit into the -Stable branch to verify stability.
+#Welcome
+Welcome to the Liberal Arts and Science Team Purple Haze`s 2013-2014 Block Party! code base. Please pardon the mess as we work on documenting this code for the community to use.
+##Details
+The code uses Labview 2010 (it can be upgraded to 2012, but once upgraded is **not** backwards compatible.
+The code was used by FTC teams 4290 and 5998 and varies by robot configuration, but the general structure can be adapted to fit any robot.
