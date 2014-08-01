@@ -1,0 +1,51 @@
+Autonomous
+=====
+Time Delay: [left]/[right] to change wait time
+Start Location: Determines where you are on the field relative to the ramp
+
+Driver Controls
+=====
+Tank Drive
+Button 6 (R1 Button Pad): Enable Slow Movement (while held)
+
+Operator Controls
+=====
+Left Stick: Arm Control
+Right Stick: Dump Manipulator
+Button 6 (R1 Button Pad): Release Arm
+Button 8 (R2 Button Pad): Contract Arm
+Button 5 (L1 Button Pad): Raise Flag
+Button 4 (Top 4-pad button): Release Hang Lock
+Button 7 (L2 Button Pad): Slow-Mo Lifter 'Mo
+
+Debug Mode
+=====
+Press [ENTER] repeatedly to do the following:
+0 times: Parallel Arm
+1 time : Hanger
+2 times: Flag Deployer
+
+Electronic Configuration
+=====
+Don't be an idiot and make sure Samantha is connected to USB
+and the motor controller to port 4.
+
+Programs to Load
+=====
+auto.vi
+teleop.vi
+debug.vi
+Program Chooser.vi
+samostat.vi
+version.txt
+
+Problem Report
+=====
+Working properly, but no Velcro on NXT... so it's hanging suspended
+by two wires.  :)
+
+NXT WARNING: When in sleep mode, this NXT is known to suck its internal
+battery like a wildfire in California.  BRING EXTRA AA Batteries!!!
+
+Autonomous appears to be working great!
+And... wow, LabVIEW 2010 is slow.

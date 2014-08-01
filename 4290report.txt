@@ -1,0 +1,30 @@
+Autonomous
+=====
+Time Delay: Wait for other robots [left] [right]
+Start Location: Left side or right side
+Force Ramp: Nothing, press [left]
+Cooperation: Press [enter]
+
+Driver
+=====
+Left Joystick: Left Wheels
+Right Joystick: Right Wheels
+
+Operator
+=====
+Left Joystick: Arm Up/Down
+Right Joystick: Should Move Manipulator Up/Down
+Left 4-button: Spin Flag Arm
+
+Programs to Load
+=====
+auto.vi
+teleop.vi
+debug.vi
+Program Chooser.vi
+samostat.vi
+version.txt
+
+Problem Report
+=====
+Everything works but the servos on the manipulator, something's wrong here (they don't move).
